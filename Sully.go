@@ -13,7 +13,7 @@ import (
 const s=%c%s%c
 func main() {
 	i:=%d
-	if (os.Args[0] == "./Sully"){
+	if (os.Args[0] == "./Sully_go"){
 		i++
 	}
 	i--
@@ -31,7 +31,7 @@ func main() {
 }%c`
 func main() {
 	i:=5
-	if (os.Args[0] == "./Sully"){
+	if (os.Args[0] == "./Sully_go"){
 		i++
 	}
 	i--
